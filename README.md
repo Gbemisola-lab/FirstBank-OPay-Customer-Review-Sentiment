@@ -84,20 +84,20 @@ I performed sentiment analysis and created interactive dashboards with Power BI 
 
 ## Project Structure  
 /data
-└── firstbank_reviews.csv
-└── opay_reviews.csv
+└── firstbank_reviews_with_sentiment.xlsx
+└── opay_reviews_with_sentiment.xlsx
 /scripts
 └── scraper.py
-└── sentiment_analysis.py
+└── fintech_vs_traditional_bank_sentiment_analysis1.py
 /PowerBI
-└── dashboard.pbix
+└── Sentiment Analysis of Bank(FirstBank) Vs Fintech(Opay) Review.pbix
 /README.md
 
 ## How to Run
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yourusername/FirstBank-vs-OPay-Review-Analysis.git
+   git clone https://github.com/Gbemisola-lab/FirstBank-OPay-Customer-Review-Sentiment
 2. Navigate into the project folder:
    cd FirstBank-vs-OPay-Review-Analysis
 3. Run the Python scraper (make sure dependencies are installed):
@@ -118,7 +118,7 @@ I performed sentiment analysis and created interactive dashboards with Power BI 
 
 ## Author
 [Gbemisola Abolade] — Data Analyst
-GitHub: https://github.com/Gbemisola-lab
+GitHub:https://github.com/Gbemisola-lab
 
 
 
